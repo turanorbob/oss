@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.paypal.sdk:rest-api-sdk:1.13.1">
+    <CLASSES>
+      <root url="jar://D:/.gradle/caches/modules-2/files-2.1/com.paypal.sdk/rest-api-sdk/1.13.1/c5eb3a37c037ffb9da95469902be304d4d29a5af/rest-api-sdk-1.13.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/.gradle/caches/modules-2/files-2.1/com.paypal.sdk/rest-api-sdk/1.13.1/af21aa0d152d9a4cd5fe57d6de35506726585ead/rest-api-sdk-1.13.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -8,6 +8,7 @@ sourceCompatibility = 1.8
 repositories {
     mavenLocal()
     mavenCentral()
+    jcenter()
 }
 
 jar {
@@ -22,7 +23,21 @@ jar {
 dependencies {
     compile group:'io.vertx', name:'vertx-core', version:'3.4.1'
     compile group:'io.vertx', name:'vertx-web', version:'3.4.1'
+    compile group: 'io.vertx', name: 'vertx-web-templ-freemarker', version: '3.4.1'
+    compile group: 'io.vertx', name: 'vertx-web-templ-handlebars', version: '3.4.1'
+    // https://mvnrepository.com/artifact/io.vertx/vertx-web-templ-jade
+    compile group: 'io.vertx', name: 'vertx-web-templ-jade', version: '3.4.1'
+    // https://mvnrepository.com/artifact/io.vertx/vertx-web-templ-mvel
+    compile group: 'io.vertx', name: 'vertx-web-templ-mvel', version: '3.4.1'
+    // https://mvnrepository.com/artifact/io.vertx/vertx-web-templ-pebble
+    compile group: 'io.vertx', name: 'vertx-web-templ-pebble', version: '3.4.1'
+    // https://mvnrepository.com/artifact/io.vertx/vertx-web-templ-thymeleaf
+    compile group: 'io.vertx', name: 'vertx-web-templ-thymeleaf', version: '3.4.1'
+    // https://mvnrepository.com/artifact/com.paypal.sdk/rest-api-sdk
+    compile group: 'com.paypal.sdk', name: 'rest-api-sdk', version: '1.13.1'
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group:'io.vertx', name:'vertx-unit', version:'3.4.1'
 }
 
 task release(type: Copy,dependsOn: [build]) {

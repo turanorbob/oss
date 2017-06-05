@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-web-templ-jade:3.4.1">
+    <CLASSES>
+      <root url="jar://D:/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-templ-jade/3.4.1/64b06f5be6860966762649415ade8736feba172e/vertx-web-templ-jade-3.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-templ-jade/3.4.1/bac7c8797352137d1f59e55c56bd1863abf88f90/vertx-web-templ-jade-3.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
