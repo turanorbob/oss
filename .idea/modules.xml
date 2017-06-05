@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/builder.iml" filepath="$PROJECT_DIR$/.idea/modules/builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/builder_main.iml" filepath="$PROJECT_DIR$/.idea/modules/builder_main.iml" group="builder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/builder_test.iml" filepath="$PROJECT_DIR$/.idea/modules/builder_test.iml" group="builder" />
+      <module fileurl="file://$PROJECT_DIR$/mvnbuilder/mvnbuilder.iml" filepath="$PROJECT_DIR$/mvnbuilder/mvnbuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oss.iml" filepath="$PROJECT_DIR$/oss.iml" />
+    </modules>
+  </component>
+</project>
