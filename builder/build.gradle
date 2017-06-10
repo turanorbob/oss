@@ -21,8 +21,8 @@ jar {
 }
 
 dependencies {
-    compile group:'io.vertx', name:'vertx-core', version:'3.4.1'
-    compile group:'io.vertx', name:'vertx-web', version:'3.4.1'
+    compile group: 'io.vertx', name: 'vertx-core', version: '3.4.1'
+    compile group: 'io.vertx', name: 'vertx-web', version: '3.4.1'
     compile group: 'io.vertx', name: 'vertx-web-templ-freemarker', version: '3.4.1'
     compile group: 'io.vertx', name: 'vertx-web-templ-handlebars', version: '3.4.1'
     // https://mvnrepository.com/artifact/io.vertx/vertx-web-templ-jade
@@ -35,14 +35,19 @@ dependencies {
     compile group: 'io.vertx', name: 'vertx-web-templ-thymeleaf', version: '3.4.1'
     // https://mvnrepository.com/artifact/com.paypal.sdk/rest-api-sdk
     compile group: 'com.paypal.sdk', name: 'rest-api-sdk', version: '1.13.1'
+    // https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper
+    compile group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.4.10'
+    // https://mvnrepository.com/artifact/com.rabbitmq/amqp-client
+    compile group: 'com.rabbitmq', name: 'amqp-client', version: '4.1.1'
+
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    testCompile group:'io.vertx', name:'vertx-unit', version:'3.4.1'
+    testCompile group: 'io.vertx', name: 'vertx-unit', version: '3.4.1'
 }
 
-task release(type: Copy,dependsOn: [build]) {
+task release(type: Copy, dependsOn: [build]) {
     from('build/libs') {
         include '*.jar'
     }
-    into ('docker')
+    into('docker')
 }
