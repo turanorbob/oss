@@ -43,6 +43,7 @@ public class SimpleTable {
         try {
             XWPFTable table = doc.createTable(3, 3);
 
+
             table.getRow(1).getCell(1).setText("EXAMPLE OF TABLE");
 
             // table cells have a list of paragraphs; there is an initial
